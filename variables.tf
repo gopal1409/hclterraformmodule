@@ -1,6 +1,3 @@
-variable "bucket_name" {
-  type = string
-}
 variable "my_s3_bucket" {
     type = string
     default = "gopal1409"
