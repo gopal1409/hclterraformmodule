@@ -9,5 +9,5 @@ output "domain" {
 }
 
 output "endpoint-aws" {
-  value = module.website_s3_bucket.website_endpoint
+  value = module.website_s3_bucket.endpoint
 }
