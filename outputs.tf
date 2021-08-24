@@ -8,6 +8,6 @@ output "domain" {
   value = module.website_s3_bucket.domain
 }
 
-output "endpoint1" {
+output "endpoint-aws" {
   value = module.website_s3_bucket.endpoint
 }
