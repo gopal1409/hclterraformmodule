@@ -5,7 +5,7 @@ output "name" {
   value = module.website_s3_bucket.name 
 }
 output "domain" {
-  value = modules.website_s3_bucket.domain
+  value = module.website_s3_bucket.domain
 }
 
 output "endpoint" {
