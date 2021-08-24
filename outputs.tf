@@ -1,13 +1,13 @@
 output "arn" {
-  value = modules.aws_s3_bucket.s3_bucket.arn 
+  value = modules.website_s3_bucket.arn 
 }
 output "name" {
-  value = modules.aws_s3_bucket.s3_bucket.id 
+  value = modules.website_s3_bucket.name 
 }
 output "domain" {
-  value = modules.aws_s3_bucket.s3_bucket.website_domain
+  value = modules.website_s3_bucket.domain
 }
 
 output "endpoint" {
-  value = modules.aws_s3_bucket.s3_bucket.website_endpoint
+  value = modules.website_s3_bucket.endpoint
 }
