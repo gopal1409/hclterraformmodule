@@ -1,9 +1,19 @@
 variable "bucket_name" {
   type = string
 }
-variable "tags" {
+variable "my_s3_bucket" {
+    type = string
+    default = "gopal1409"
+  
+}
+variable "my_s3_tag" {
   type = map(string)
-  default  = {}
+  default  = {
+      Terraform = "true"
+      Environment = "dev"
+      newtag1 = "tag1"
+      newtag2 = "tag2"
+  }
 }
 variable "aws_region" {
   default = "us-east-1"
