@@ -15,3 +15,7 @@ variable "my_s3_tag" {
 variable "aws_region" {
   default = "us-east-1"
 }
+variable "folder_name" {
+  type = string
+  default = "gopal"
+}
